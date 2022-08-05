@@ -3,8 +3,6 @@ on:
   pull_request:
     paths:
       - '**orchestration**'
-  schedule:
-    - cron: '0 0 * * *'
 jobs:
   functional-orchestration:
     strategy:
